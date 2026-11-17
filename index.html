@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>BELAJAR PP SAMPE MABUK</title>
+<style>
+:root{--bg:#F4EFE6;--c1:#493323;--c2:#795C43;--c3:#B69A78;--cr:#E8DDC9;--tx:#30251D;--cd:#fffaf0;--ok:#3d7a4a;--no:#a8402f;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1f1812;--c1:#B69A78;--c2:#c9ae8c;--c3:#795C43;--cr:#33291f;--tx:#efe6d6;--cd:#2a2118;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#1f1812;--c1:#B69A78;--c2:#c9ae8c;--c3:#795C43;--cr:#33291f;--tx:#efe6d6;--cd:#2a2118;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 system-ui,sans-serif}
+h1,h2,h3,.serif{font-family:Georgia,'Times New Roman',serif;color:var(--c1)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--cr);border-bottom:1px solid var(--c3);display:flex;gap:4px;padding:8px 12px;overflow-x:auto;z-index:5;align-items:center}
+nav b{font-family:Georgia,serif;color:var(--c1);white-space:nowrap;margin-right:8px}
+nav button{white-space:nowrap}
+button{font:inherit;cursor:pointer;border:1px solid var(--c3);background:var(--cd);color:var(--tx);padding:8px 14px;border-radius:8px}
+button:hover{border-color:var(--c2)}button.on,button.pri{background:var(--c1);color:var(--bg);border-color:var(--c1)}
+main{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.card{background:var(--cd);border:1px solid var(--c3);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 2px 8px #0002}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.bar{height:10px;background:var(--cr);border-radius:9px;overflow:hidden;border:1px solid var(--c3)}.bar i{display:block;height:100%;background:var(--c2)}
+.big{font:700 2rem Georgia,serif;color:var(--c1)}.row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.opt{display:block;width:100%;text-align:left;margin:6px 0}.opt.sel{border-color:var(--c1);background:var(--cr);font-weight:600}
+.ok{border-color:var(--ok)!important;background:#3d7a4a33!important}.no{border-color:var(--no)!important;background:#a8402f33!important}
+.kw{background:var(--cr);border-left:4px solid var(--c2);padding:8px 12px;border-radius:6px;margin:12px 0}
+.tl{border-left:3px solid var(--c3);margin-left:8px;padding-left:16px}.tl .card{cursor:pointer;position:relative}.tl .card:before{content:"";position:absolute;left:-26px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--c2)}
+.fc{min-height:200px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:1.2rem;cursor:pointer;transition:.2s}
+input{font:inherit;padding:8px;border:1px solid var(--c3);border-radius:8px;background:var(--cd);color:var(--tx);width:100%}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}.two button{text-align:left}
+small{color:var(--c2)}h4{margin:14px 0 4px;color:var(--c2)}
+body{background-image:radial-gradient(#b69a7833 1px,transparent 1px);background-size:22px 22px;background-attachment:fixed}
+.fx{animation:up .4s both}@keyframes up{from{opacity:0;transform:translateY(8px)}}
+.card{transition:.2s;border-top:3px solid var(--c3)}.grid .card:hover{transform:translateY(-3px);box-shadow:0 6px 16px #0003}
+.bar i{background:linear-gradient(90deg,var(--c2),var(--c3));transition:width .5s}
+.hero{background:linear-gradient(135deg,#493323,#795C43);color:#fff8ea;border-radius:16px;padding:26px 20px;position:relative;overflow:hidden;box-shadow:0 4px 14px #0004;border:1px solid #B69A78}
+.hero h1{color:#fff8ea;margin:0;font-size:2.1rem}.hero p{margin:6px 0 0}.hero small{color:#e8ddc9}.hero:after{content:"📚";position:absolute;right:12px;bottom:-12px;font-size:5.5rem;opacity:.22}
+.orn{text-align:center;color:var(--c3);letter-spacing:.5em;margin:20px 0 6px}.orn:before{content:"❦ ✦ ❦"}
+h2:after{content:"";display:block;width:60px;height:3px;background:var(--c3);margin-top:4px;border-radius:3px}
+.badge{display:inline-block;padding:4px 16px;border-radius:99px;background:var(--c1);color:var(--bg);font:700 1rem Georgia,serif}
+.ring{width:140px;height:140px;border-radius:50%;display:grid;place-items:center;margin:8px auto}.ring .in{width:108px;height:108px;border-radius:50%;background:var(--cd);display:grid;place-items:center;font:700 2.3rem Georgia,serif;color:var(--c1);box-shadow:inset 0 2px 6px #0003}
+.tb{border-collapse:collapse;width:100%}.tb td,.tb th{border-bottom:1px solid var(--c3);padding:7px;text-align:left}.tb th{color:var(--c2)}
+textarea{width:100%;min-height:70px;font:13px monospace;background:var(--cd);color:var(--tx);border:1px solid var(--c3);border-radius:8px;padding:8px}
+@media print{nav,.row,button,textarea{display:none!important}body{background:#fff}}
+</style></head><body>
+<nav><b>📜 PP SAMPE MABUK</b><button data-p="home">Beranda</button><button data-p="materi">Materi</button><button data-p="tl">Timeline</button><button data-p="quiz">Latihan Soal</button><button data-p="rapor">Rapor Nilai</button><button id="th" title="Ganti tema">◐</button></nav>
+<main id="app"></main>
+<script>
+const M=[
+["Bab 1. Awal Kemerdekaan dan UUD 1945 (1945–1949)","<h4>Latar belakang</h4><p>Setelah Proklamasi 17 Agustus 1945, Indonesia butuh dasar hukum. Pada 18 Agustus 1945 PPKI mengesahkan UUD 1945 sebagai konstitusi tertulis pertama. Sifatnya sementara karena disusun dalam keadaan mendesak.</p><h4>Sistematika</h4><ul><li>Pembukaan: 4 alinea</li><li>Batang Tubuh: 16 bab, 37 pasal</li><li>Penjelasan: disusun Prof. Soepomo</li></ul><h4>Langkah PPKI</h4><p>Memilih Soekarno-Hatta, membentuk BKR dan KNIP. KNIP membantu tugas MPR, DPR, DPA sebelum terbentuk (Pasal IV Aturan Peralihan).</p><h4>Demokrasi awal</h4><ul><li>16 Okt 1945: Maklumat Wapres No. X, KNIP berwenang legislatif dan ikut menetapkan GBHN</li><li>17 Okt 1945: BP KNIP dibentuk</li><li>3 Nov 1945: Maklumat Pemerintah, rakyat bebas mendirikan partai (sekitar 40 partai)</li></ul>","PPKI, KNIP, Maklumat X, multipartai","UUD 1945 disahkan sehari setelah proklamasi, awalnya presidensial, lalu demokrasi dibuka lewat KNIP dan partai."],
+["Bab 2. RIS dan UUD RIS 1949 (1949–1950)","<h4>Latar belakang</h4><p>Belanda masih berusaha menguasai Indonesia. Hasil Konferensi Meja Bundar (1949): Belanda menyerahkan kedaulatan dalam bentuk Republik Indonesia Serikat (federal), sehingga dibutuhkan UUD baru yang berlaku 27 Desember 1949.</p><h4>Penyerahan kedaulatan 27 Des 1949</h4><ul><li>Belanda: Ratu Juliana kepada Moh. Hatta</li><li>Yogyakarta: RI kepada RIS</li><li>Jakarta: Lovink kepada Sri Sultan HB IX</li></ul><h4>UUD RIS</h4><p>Mukadimah 4 alinea, 6 bab, 197 pasal. Bentuk negara federal, bentuk pemerintahan republik, sistem parlementer (PM kepala pemerintahan).</p><h4>Berakhirnya RIS</h4><p>Rakyat ingin bersatu. Maret 1950 Moh. Natsir mengajukan Mosi Integral. 17 Agustus 1950 RIS bubar, Indonesia kembali NKRI.</p>","KMB, federal, Mosi Integral, Natsir","RIS lahir dari KMB, tetapi federalisme tidak sesuai cita-cita persatuan sehingga dibubarkan 17 Agustus 1950."],
+["Bab 3. UUDS 1950 dan Demokrasi Parlementer (1950–1959)","<h4>UUDS 1950</h4><p>Berlaku 17 Agustus 1950, 6 bab 146 pasal, bersifat sementara menunggu UUD tetap buatan Konstituante. Presiden kepala negara (simbolis), PM kepala pemerintahan, kabinet bertanggung jawab kepada DPR.</p><h4>Ciri</h4><p>Multipartai, kabinet mudah jatuh. Terjadi 7 kali pergantian kabinet: Natsir, Sukiman-Suwirjo, Wilopo, Ali I, Burhanuddin Harahap, Ali II, Djuanda.</p><h4>Pemilu 1955</h4><p>Pemilu pertama, memilih anggota DPR dan Konstituante.</p><h4>Menuju Dekrit</h4><ul><li>1 Des 1956: Hatta mundur sebagai Wapres</li><li>22 April 1959: Soekarno minta kembali ke UUD 1945</li><li>Konstituante buntu soal dasar negara, tiga kali voting gagal</li><li>5 Juli 1959: Dekrit Presiden</li></ul><p>Isi Dekrit: bubarkan Konstituante; UUD 1945 berlaku, UUDS 1950 tidak berlaku; bentuk MPRS dan DPAS.</p>","Konstituante, 7 kabinet, Pemilu 1955, Dekrit","Ketidakstabilan kabinet dan kebuntuan Konstituante mendorong Dekrit 5 Juli 1959."],
+["Bab 4. Demokrasi Terpimpin (1959–1966)","<h4>Pengertian</h4><p>Sistem setelah Dekrit 1959, kekuasaan terpusat pada Soekarno. Demokrasi liberal dianggap demokrasi impor.</p><h4>Ciri</h4><ul><li>Kekuasaan presiden besar, partai dibatasi</li><li>Militer dan PKI menguat</li><li>NASAKOM: Nasionalisme, Agama, Komunisme</li></ul><h4>Kebijakan</h4><ul><li>MPRS dan DPAS dibentuk; Masyumi dan PSI dibubarkan</li><li>1963: TAP MPRS III/1963, presiden seumur hidup</li><li>Trikora (Irian Barat), Konfrontasi Malaysia</li><li>Politik Mercusuar: Monas, Asian Games 1962</li><li>Januari 1965 keluar dari PBB</li></ul><h4>Penyimpangan dan ekonomi</h4><p>DPR hasil Pemilu 1955 dibubarkan diganti DPR-GR, Manipol USDEK jadi GBHN, poros Jakarta-Peking-Moskow. Proyek besar mengabaikan rakyat sehingga terjadi inflasi dan hiperinflasi.</p>","NASAKOM, Mercusuar, presiden seumur hidup","Kekuasaan terpusat dan kebijakan keliru menimbulkan krisis politik dan ekonomi."],
+["Bab 5. G30S/PKI (1965)","<h4>Peristiwa</h4><p>Terjadi malam 30 September sampai 1 Oktober 1965, dijelaskan dalam materi sebagai upaya menggulingkan pemerintah dan mengganti Pancasila.</p><h4>Korban (Pahlawan Revolusi)</h4><p>Ahmad Yani, Suprapto, M.T. Haryono, S. Parman, D.I. Panjaitan, Sutoyo, Pierre Tendean. Nasution selamat, putrinya Ade Irma gugur. Di Yogyakarta: Katamso dan Sugiyono.</p><h4>Dampak</h4><ul><li>Soekarno melemah, Soeharto menguat</li><li>PKI dibubarkan dan dilarang</li><li>Kekerasan massal, perkiraan 450.000 sampai lebih dari satu juta korban</li><li>Mahmilub mengadili Untung dan D.N. Aidit</li></ul><p>1 Oktober diperingati sebagai Hari Kesaktian Pancasila. Dalang peristiwa masih diperdebatkan sejarawan.</p>","Pahlawan Revolusi, Mahmilub, 1 Oktober","G30S menjadi titik balik berakhirnya Demokrasi Terpimpin."],
+["Bab 6. Supersemar dan Peralihan Kekuasaan (1966–1968)","<h4>Latar belakang</h4><p>Krisis politik, ekonomi, keamanan. Mahasiswa menuntut Tritura: bubarkan PKI, bersihkan kabinet dari unsur G30S, perbaiki ekonomi.</p><h4>Supersemar</h4><p>Surat Perintah Sebelas Maret, ditandatangani Soekarno 11 Maret 1966, memberi wewenang kepada Letjen Soeharto memulihkan keamanan dan ketertiban.</p><h4>Dampak</h4><ul><li>12 Maret 1966: Soeharto membubarkan PKI</li><li>TAP MPRS IX/1966 mengukuhkan Supersemar</li><li>1967: Soeharto Pejabat Presiden</li><li>27 Maret 1968: Soeharto resmi Presiden, Orde Baru dimulai</li></ul>","Tritura, Supersemar, Orde Baru","Supersemar menjadi pintu peralihan kekuasaan dari Soekarno ke Soeharto."],
+["Bab 7. Berakhirnya Orde Baru (1998)","<h4>Latar belakang</h4><p>Orde Baru (1966/67–1998) berakhir akibat krisis ekonomi, ketidakpuasan rakyat, demonstrasi mahasiswa menuntut reformasi, Tragedi Trisakti dan Kerusuhan Mei 1998.</p><h4>Peristiwa</h4><p>21 Mei 1998 Soeharto mundur dan B.J. Habibie menjadi Presiden.</p><h4>Dampak</h4><ul><li>Era Reformasi dimulai</li><li>Tuntutan demokrasi dan pembatasan kekuasaan presiden</li><li>Amandemen UUD 1945</li></ul>","Reformasi, Trisakti, Habibie","Krisis ekonomi dan tekanan rakyat mengakhiri Orde Baru."],
+["Bab 8. Amandemen UUD 1945 (1999–2002)","<h4>Latar belakang</h4><p>UUD 1945 lama executive heavy: kekuasaan presiden besar, pengawasan lemah, pasal multitafsir, HAM terbatas.</p><h4>Lima kesepakatan dasar</h4><ol><li>Tidak mengubah Pembukaan</li><li>Mempertahankan NKRI</li><li>Mempertegas presidensial</li><li>Hal normatif masuk pasal</li><li>Perubahan secara adendum</li></ol><h4>Empat tahap</h4><ul><li><b>I, 19 Okt 1999:</b> masa jabatan presiden maksimal 2 kali 5 tahun; kekuasaan membentuk UU ke DPR</li><li><b>II, 18 Agt 2000:</b> Bab XA HAM (Pasal 28A–28J), otonomi daerah, TNI dan Polri dipisah, fungsi DPR, Pasal 36A–36C</li><li><b>III, 9 Nov 2001:</b> presiden dipilih langsung (Pasal 6A), MPR terdiri DPR dan DPD, pemakzulan, MK dan KY dibentuk</li><li><b>IV, 10 Agt 2002:</b> DPA dihapus, putaran kedua pilpres, triumvirat (Menlu, Mendagri, Menhan) Pasal 8 ayat 3, anggaran pendidikan minimal 20%, Pasal 33-34, Pasal 37</li></ul><h4>Dampak</h4><p>Positif: demokrasi kuat, kekuasaan dibatasi, checks and balances, HAM luas. Negatif: biaya politik tinggi, politik uang, polarisasi, tumpang tindih kewenangan.</p>","adendum, checks and balances, MK, KY","Empat amandemen membatasi presiden dan memperkuat demokrasi serta HAM."],
+["Bab 9. Rangkuman Konstitusi","<table><tr><th>Periode</th><th>Konstitusi</th><th>Bentuk</th><th>Sistem</th></tr><tr><td>18 Agt 1945–27 Des 1949</td><td>UUD 1945</td><td>Kesatuan</td><td>Presidensial</td></tr><tr><td>27 Des 1949–17 Agt 1950</td><td>UUD RIS</td><td>Federal</td><td>Parlementer</td></tr><tr><td>17 Agt 1950–5 Juli 1959</td><td>UUDS 1950</td><td>Kesatuan</td><td>Parlementer</td></tr><tr><td>5 Juli 1959–kini</td><td>UUD 1945</td><td>Kesatuan</td><td>Presidensial</td></tr></table><p>Lihat halaman Timeline untuk urutan 23 peristiwa penting.</p>","urutan konstitusi","Pola: UUD 1945 → RIS → UUDS 1950 → UUD 1945 (diamandemen)."],
+["Bab 10. Istilah Penting","<ul><li><b>Konstitusi</b>: hukum dasar negara</li><li><b>Federal</b>: negara serikat dari beberapa negara bagian</li><li><b>Presidensial</b>: presiden kepala negara sekaligus pemerintahan</li><li><b>Parlementer</b>: PM kepala pemerintahan, kabinet bertanggung jawab ke parlemen</li><li><b>Konstituante</b>: lembaga penyusun UUD baru</li><li><b>Dekrit</b>: keputusan presiden mengatasi masalah ketatanegaraan</li><li><b>Amandemen</b>: perubahan isi konstitusi, <b>adendum</b>: dengan menambahkan naskah</li><li><b>Checks and balances</b>: saling mengawasi antarlembaga</li><li><b>Executive heavy</b>: eksekutif terlalu dominan</li><li><b>Impeachment</b>: pemberhentian presiden sebelum masa jabatan berakhir</li><li><b>Otonomi daerah</b>: hak daerah mengurus pemerintahannya sendiri</li></ul>","istilah","Kuasai istilah agar mudah menjawab soal konsep."]];
+const T=[
+["17 Agt 1945","Proklamasi Kemerdekaan","Indonesia butuh dasar hukum negara.","Indonesia merdeka, UUD segera disusun.",0],
+["18 Agt 1945","UUD 1945 disahkan PPKI","Perlu konstitusi dan pimpinan negara.","Konstitusi pertama, Soekarno-Hatta terpilih.",0],
+["16 Okt 1945","Maklumat Wapres No. X","Demokrasi perlu ruang partisipasi.","KNIP berwenang legislatif dan ikut menetapkan GBHN.",0],
+["3 Nov 1945","Maklumat Pemerintah","Pemerintah membuka kebebasan berpolitik.","Muncul sekitar 40 partai, awal multipartai.",0],
+["1949","Konferensi Meja Bundar","Belanda terus berusaha berkuasa.","Kedaulatan diakui dalam bentuk RIS.",0],
+["27 Des 1949","Penyerahan kedaulatan, UUD RIS berlaku","Hasil KMB.","Negara federal, sistem parlementer.",0],
+["Maret 1950","Mosi Integral Natsir","Rakyat ingin kembali bersatu.","Negara bagian bergabung, RIS bubar.",1],
+["17 Agt 1950","RIS bubar, UUDS 1950 berlaku","Federal tidak sesuai cita-cita persatuan.","Kembali NKRI, parlementer.",1],
+["1955","Pemilu pertama","Memilih DPR dan Konstituante.","Berjalan demokratis, tetapi elite tetap berkonflik.",1],
+["1 Des 1956","Hatta mundur","Beda pandangan dengan Soekarno soal demokrasi.","Dwitunggal retak, Soekarno makin dominan.",1],
+["22 Apr 1959","Amanat kembali ke UUD 1945","Konstituante buntu.","Voting gagal, mendorong Dekrit.",2],
+["5 Juli 1959","Dekrit Presiden","Konstituante gagal menyusun UUD.","UUD 1945 berlaku, Demokrasi Terpimpin dimulai.",2],
+["1963","Presiden seumur hidup","Kekuasaan Soekarno memuncak (TAP MPRS III/1963).","Penyimpangan konstitusi.",2],
+["30 Sep–1 Okt 1965","G30S","Krisis politik dan ketegangan militer-PKI.","Soekarno melemah, PKI dibubarkan.",2],
+["11 Maret 1966","Supersemar","Tritura dan krisis nasional.","Soeharto memegang wewenang pemulihan keamanan.",3],
+["12 Maret 1966","PKI dibubarkan","Wewenang Supersemar.","Posisi Soeharto menguat.",3],
+["1967","Soeharto Pejabat Presiden","MPRS mencabut mandat Soekarno.","Peralihan kekuasaan.",3],
+["27 Maret 1968","Soeharto Presiden","Pengukuhan MPRS.","Orde Baru dimulai.",3],
+["21 Mei 1998","Soeharto mundur","Krisis ekonomi dan demonstrasi.","Habibie presiden, Reformasi dimulai.",4],
+["19 Okt 1999","Amandemen I","Presiden terlalu kuat.","Masa jabatan dibatasi, legislasi ke DPR.",4],
+["18 Agt 2000","Amandemen II","HAM dan daerah belum terjamin.","Bab XA HAM, otonomi, TNI-Polri dipisah.",4],
+["9 Nov 2001","Amandemen III","Perlu pemilihan langsung dan lembaga baru.","Pilpres langsung, MK dan KY.",4],
+["10 Agt 2002","Amandemen IV","Penyempurnaan sistem.","DPA dihapus, anggaran pendidikan 20%.",4]];
+const PER=["1945–1949","1950–1959","1959–1965","1966–1968","Reformasi"];
+const Q=`Kapan PPKI mengesahkan UUD 1945?|17 Agustus 1945|18 Agustus 1945|19 Agustus 1945|5 Juli 1959|1|Sehari setelah proklamasi, tepatnya 18 Agustus 1945.
+Siapa penyusun Penjelasan UUD 1945?|Moh. Yamin|Moh. Hatta|Soepomo|Soekarno|2|Penjelasan disusun Prof. Dr. Mr. Soepomo.
+Batang Tubuh UUD 1945 awal terdiri atas...|16 bab 37 pasal|6 bab 146 pasal|6 bab 197 pasal|20 bab 73 pasal|0|Susunan awal 16 bab dan 37 pasal.
+Sebelum MPR, DPR, DPA terbentuk, tugasnya dibantu oleh...|BKR|KNIP|PPKI|Konstituante|1|KNIP dibentuk membantu fungsi tiga lembaga itu.
+Maklumat Wapres No. X (16 Okt 1945) memberi KNIP...|Kekuasaan yudikatif|Kekuasaan legislatif dan ikut menetapkan GBHN|Hak memilih presiden|Hak membubarkan DPR|1|Sebelumnya KNIP hanya membantu Presiden.
+Maklumat 3 November 1945 berisi...|Pembubaran partai|Pembentukan KNIP|Kebebasan mendirikan partai politik|Pelaksanaan pemilu|2|Akibatnya muncul sekitar 40 partai.
+Hasil KMB 1949 adalah...|Belanda mengakui kedaulatan dalam bentuk RIS|Indonesia kembali NKRI|UUD 1945 diubah|Konstituante dibentuk|0|Bentuk negara berubah menjadi federal.
+Penyerahan kedaulatan di Belanda dilakukan Ratu Juliana kepada...|Soekarno|Sultan HB IX|Moh. Natsir|Moh. Hatta|3|Hatta mewakili RIS.
+UUD RIS terdiri atas ... pasal.|37|146|197|71|2|UUD RIS: 6 bab 197 pasal.
+Sistem pemerintahan menurut UUD RIS adalah...|Presidensial|Parlementer|Monarki|Absolut|1|Perdana Menteri kepala pemerintahan, Presiden kepala negara.
+Tokoh Mosi Integral 1950 adalah...|Moh. Natsir|Soepomo|Wilopo|Burhanuddin Harahap|0|Mosi menyatukan kembali negara bagian.
+RIS resmi dibubarkan pada...|27 Des 1949|17 Agustus 1950|5 Juli 1959|1 Des 1956|1|Indonesia kembali NKRI dan UUDS 1950 berlaku.
+Pada UUDS 1950 kabinet bertanggung jawab kepada...|Presiden|DPR|MPR|Konstituante|1|Jika kehilangan dukungan parlemen, kabinet jatuh.
+Pemilu 1955 memilih anggota...|MPR dan DPA|DPR dan Konstituante|DPD dan DPRD|Presiden dan Wapres|1|Pemilu pertama di Indonesia.
+Selama 1950–1959 terjadi pergantian kabinet sebanyak...|3 kali|5 kali|7 kali|10 kali|2|Dari Natsir sampai Djuanda.
+Hatta mundur sebagai Wapres pada...|1 Desember 1956|17 Agustus 1950|22 April 1959|5 Juli 1959|0|Ia tidak setuju dengan Demokrasi Terpimpin.
+Tugas Konstituante adalah...|Memilih presiden|Menyusun UUD baru pengganti UUDS 1950|Mengadili pejabat|Menyusun GBHN|1|Namun gagal karena buntu soal dasar negara.
+Bukan isi Dekrit 5 Juli 1959 adalah...|Membubarkan Konstituante|Memberlakukan UUD 1945|Membentuk MPRS dan DPAS|Membentuk RIS|3|RIS dibentuk tahun 1949.
+Dekrit 1959 mengakhiri Demokrasi Parlementer dan memulai...|Orde Baru|Reformasi|Demokrasi Terpimpin|Federalisme|2|Kekuasaan terpusat pada Soekarno.
+NASAKOM adalah singkatan dari...|Nasional, Sosial, Komunal|Nasionalisme, Agama, Komunisme|Negara, Agama, Komunis|Nasional, Aksi, Komando|1|Konsep menyatukan tiga kekuatan politik.
+Soekarno presiden seumur hidup melalui...|TAP MPRS III/MPRS/1963|TAP MPRS IX/1966|Dekrit 1959|Supersemar|0|Ini penyimpangan masa Demokrasi Terpimpin.
+Indonesia keluar dari PBB pada Januari 1965 karena...|Krisis ekonomi|Malaysia jadi anggota tidak tetap DK PBB|Dekrit Presiden|G30S|1|Sebagai protes atas penerimaan Malaysia.
+Contoh proyek Politik Mercusuar adalah...|Pemilu 1955|Monas dan Asian Games 1962|KMB|Tritura|1|Proyek besar mengabaikan ekonomi rakyat.
+Penyimpangan Demokrasi Terpimpin berdampak pada ekonomi berupa...|Surplus anggaran|Hiperinflasi|Stabilitas harga|Pertumbuhan pesat|1|Fokus pada politik dan proyek besar memburukkan ekonomi.
+Jenderal yang lolos G30S tetapi putrinya gugur adalah...|A. Yani|A.H. Nasution|S. Parman|Suprapto|1|Putrinya Ade Irma Nasution dan ajudan Pierre Tendean menjadi korban.
+Hari Kesaktian Pancasila diperingati setiap...|1 Juni|17 Agustus|1 Oktober|10 November|2|Mengenang Pahlawan Revolusi.
+Bukan isi Tritura adalah...|Bubarkan PKI|Bersihkan kabinet|Perbaiki ekonomi|Bubarkan Konstituante|3|Tritura: PKI, kabinet, ekonomi.
+Supersemar ditandatangani pada...|11 Maret 1966|12 Maret 1966|27 Maret 1968|21 Mei 1998|0|Memberi wewenang kepada Soeharto.
+Langkah Soeharto sehari setelah Supersemar adalah...|Membubarkan Konstituante|Membubarkan PKI|Mundur|Membentuk MPRS|1|Tanggal 12 Maret 1966.
+Soeharto resmi menjadi Presiden pada...|11 Maret 1966|1967|27 Maret 1968|1998|2|Tahun 1967 ia baru Pejabat Presiden.
+Pengganti Soeharto setelah mundur 21 Mei 1998 adalah...|B.J. Habibie|Gus Dur|Megawati|Try Sutrisno|0|Dimulailah Era Reformasi.
+Istilah executive heavy berarti...|Eksekutif terlalu dominan|Legislatif terlalu kuat|Peradilan lemah|Daerah terlalu otonom|0|Kelemahan UUD 1945 sebelum amandemen.
+Bukan kesepakatan dasar amandemen adalah...|Tidak mengubah Pembukaan|Mempertahankan NKRI|Mengubah bentuk negara menjadi federal|Perubahan secara adendum|2|NKRI dipertahankan.
+Adendum adalah...|Mengganti seluruh naskah|Menambahkan perubahan pada naskah asli|Menghapus Pembukaan|Membuat UUD baru|1|Naskah asli tetap, perubahan ditambahkan.
+Amandemen I (1999) berfokus pada...|Pembatasan kekuasaan presiden|Pembentukan MK|Penghapusan DPA|Bab HAM|0|Maksimal dua periode 5 tahun.
+Bab XA (Pasal 28A–28J) tentang HAM lahir pada amandemen...|I|II|III|IV|1|Disahkan 18 Agustus 2000.
+Presiden dipilih langsung (Pasal 6A) serta MK dan KY dibentuk pada amandemen...|II|IV|III|I|2|Disahkan 9 November 2001.
+Penghapusan DPA terjadi pada amandemen...|I|II|III|IV|3|Disahkan 10 Agustus 2002.
+Jika Presiden dan Wapres berhalangan bersamaan, tugas dilaksanakan triumvirat, yaitu...|Menlu, Mendagri, Menhan|Menkeu, Menlu, Mensesneg|KSAD, Kapolri, Jaksa Agung|Ketua MPR, DPR, DPD|0|Pasal 8 ayat 3.
+Anggaran pendidikan minimal dari APBN dan APBD sebesar...|10%|15%|20%|30%|2|Diatur amandemen keempat.`.split("\n").map(l=>l.split("|"));
+const F=[["Konstitusi","Hukum dasar penyelenggaraan negara."],["Federal","Negara serikat, terdiri atas negara bagian."],["NKRI","Negara kesatuan dengan satu pemerintah pusat."],["Presidensial","Presiden kepala negara sekaligus kepala pemerintahan."],["Parlementer","PM kepala pemerintahan, kabinet bertanggung jawab ke parlemen."],["Tanggal UUD 1945 disahkan","18 Agustus 1945 oleh PPKI."],["Penyusun Penjelasan UUD 1945","Prof. Dr. Mr. Soepomo."],["Struktur UUD 1945 awal","Pembukaan 4 alinea, 16 bab, 37 pasal, Penjelasan."],["Fungsi KNIP","Membantu tugas MPR, DPR, DPA sebelum terbentuk."],["Maklumat Wapres No. X","16 Okt 1945: KNIP berwenang legislatif dan ikut menetapkan GBHN."],["Maklumat 3 Nov 1945","Kebebasan mendirikan partai, lahir sekitar 40 partai."],["KMB","1949, Belanda mengakui kedaulatan dalam bentuk RIS."],["Tanggal berlaku UUD RIS","27 Desember 1949."],["Pasal UUD RIS","6 bab, 197 pasal; sistem parlementer."],["Mosi Integral","Maret 1950 oleh Moh. Natsir, menyatukan kembali negara bagian."],["UUDS 1950","Berlaku 17 Agustus 1950, 6 bab 146 pasal, parlementer."],["Pemilu 1955","Pemilu pertama, memilih DPR dan Konstituante."],["Tanggal Hatta mundur","1 Desember 1956."],["Dekrit Presiden","5 Juli 1959: bubarkan Konstituante, UUD 1945 berlaku, bentuk MPRS dan DPAS."],["NASAKOM","Nasionalisme, Agama, Komunisme."],["Politik Mercusuar","Proyek megah seperti Monas dan Asian Games 1962."],["Tritura","Bubarkan PKI, bersihkan kabinet, perbaiki ekonomi."],["Supersemar","11 Maret 1966: wewenang Soeharto memulihkan keamanan."],["Soeharto Presiden RI","27 Maret 1968 (Pejabat Presiden 1967)."],["Soeharto mundur","21 Mei 1998, digantikan B.J. Habibie."],["Executive heavy","Kekuasaan presiden terlalu dominan, kelemahan UUD 1945 lama."],["Lima kesepakatan amandemen","Pembukaan tetap, NKRI, presidensial, normatif ke pasal, adendum."],["Amandemen I dan II","19 Okt 1999: batas jabatan presiden. 18 Agt 2000: HAM Bab XA, TNI-Polri dipisah."],["Amandemen III","9 Nov 2001: pilpres langsung Pasal 6A, MK, KY, pemakzulan."],["Amandemen IV","10 Agt 2002: DPA dihapus, triumvirat, anggaran pendidikan 20%."]];
+const MT=[
+[["Siapa mengusulkan Mosi Integral?","Moh. Natsir","Maret 1950, menyatukan kembali negara bagian RIS."],["Penyerahan kedaulatan di Belanda diterima oleh...","Moh. Hatta","Dari Ratu Juliana, 27 Des 1949."],["Maklumat 3 Nov 1945","Kebebasan mendirikan partai","Lahir sekitar 40 partai."],["UUD RIS berlaku sejak...","27 Des 1949","Setelah penyerahan kedaulatan."],["Penyusun Penjelasan UUD 1945","Soepomo","Penjelasan disusun kemudian."]],
+[["Jumlah pasal UUDS 1950","146 pasal","Dalam 6 bab."],["Pemilu 1955 memilih","DPR dan Konstituante","Pemilu pertama Indonesia."],["Hatta mundur","1 Des 1956","Tidak setuju Demokrasi Terpimpin."],["Dekrit 5 Juli 1959","UUD 1945 berlaku lagi","Konstituante dibubarkan."],["Jumlah pergantian kabinet 1950–59","7 kali","Natsir sampai Djuanda."]],
+[["NASAKOM","Nasionalisme, Agama, Komunisme","Konsep Demokrasi Terpimpin."],["TAP MPRS III/1963","Presiden seumur hidup","Penyimpangan konstitusi."],["Politik Mercusuar","Monas dan Asian Games 1962","Proyek prestise."],["Indonesia keluar PBB","Januari 1965","Protes Malaysia di DK PBB."],["Pengganti DPR hasil Pemilu 1955","DPR-GR","Anggota ditunjuk presiden."]],
+[["Tritura","Bubarkan PKI, bersihkan kabinet, perbaiki ekonomi","Tuntutan mahasiswa 1966."],["Supersemar","11 Maret 1966","Wewenang bagi Soeharto."],["TAP MPRS IX/1966","Pengukuhan Supersemar","Oleh MPRS."],["Soeharto Presiden","27 Maret 1968","Awal Orde Baru."],["Pahlawan Revolusi yang ajudan Nasution","Pierre Tendean","Ikut menjadi korban G30S."]],
+[["Amandemen I","19 Okt 1999","Batas masa jabatan presiden."],["Amandemen II","Bab XA HAM","Pasal 28A–28J."],["Amandemen III","Pilpres langsung dan MK","Pasal 6A; MK dan KY dibentuk."],["Amandemen IV","DPA dihapus","10 Agt 2002."],["Triumvirat","Menlu, Mendagri, Menhan","Pasal 8 ayat 3."]]];
+const $=s=>document.querySelector(s),A=$("#app"),sh=a=>[...a].sort(()=>Math.random()-.5);
+let S={read:[],pr:{},hist:[],fc:[],mt:[],dark:null,last:null,ch:0,name:"",qa:[],qi:0,mtS:{}};
+try{Object.assign(S,JSON.parse(localStorage.getItem("ppsm")||"{}"))}catch(e){}
+const sv=()=>{try{localStorage.setItem("ppsm",JSON.stringify(S))}catch(e){}};
+function theme(){if(S.dark!==null)document.documentElement.dataset.theme=S.dark?"dark":"light"}theme();
+$("#th").onclick=()=>{S.dark=!(S.dark===null?matchMedia("(prefers-color-scheme:dark)").matches:S.dark);theme();sv()};
+let page="home";
+document.querySelectorAll("nav [data-p]").forEach(b=>b.onclick=()=>go(b.dataset.p));
+function go(p){page=p;const nb=["mc","fcv","mt"].includes(p)?"quiz":p;document.querySelectorAll("nav [data-p]").forEach(b=>b.classList.toggle("on",b.dataset.p==nb));scrollTo(0,0);A.classList.remove("fx");void A.offsetWidth;A.classList.add("fx");({home,materi,tl,quiz,mc,fcv,mt,rapor})[p]()}
+function pct(){return Math.round((S.read.length/M.length*50+S.fc.length/30*25+S.mt.length/5*25))}
+function home(){A.innerHTML=`<div class=hero><h1>BELAJAR PP SAMPE MABUK</h1><p><i>Pahami sejarahnya, ingat peristiwanya, taklukkan ujiannya.</i></p><p><small>${S.name?"Halo, "+esc(S.name)+"! ":""}💾 Progres tersimpan otomatis di perangkat ini.</small></p></div>
+<div class=row><button class=pri onclick="S.ch=0;go('materi')">Mulai Belajar</button><button onclick="go('materi')">Lanjutkan Belajar</button><button onclick="go('rapor')">Lihat Rapor Nilai</button></div>
+<div class=card><b>Progress belajar: ${pct()}%</b><div class=bar><i style="width:${pct()}%"></i></div></div>
+<div class=grid><div class=card><div class=big>${S.read.length}/${M.length}</div>Materi dipelajari</div><div class=card><div class=big>${S.hist.length}</div>Latihan PG dikerjakan</div><div class=card><div class=big>${S.last===null?"-":S.last}</div>Nilai latihan terakhir</div></div>
+<div class=orn></div><h2>Lanjutkan Perjalanan Belajarmu</h2><div class=grid>${M.slice(0,4).map((m,i)=>`<div class=card><b>${m[0]}</b><p><small>${S.read.includes(i)?"✓ Sudah dipelajari":"Belum dibaca"}</small></p><button onclick="S.ch=${i};go('materi')">Buka</button></div>`).join("")}</div>`}
+function materi(q=""){const i=S.ch,m=M[i];
+const list=M.map((x,j)=>[x,j]).filter(([x])=>!q||(x[0]+x[1]+x[2]).toLowerCase().includes(q.toLowerCase()));
+A.innerHTML=`<input id=sq placeholder="Cari materi..." value="${q}"><div class=row>${list.map(([x,j])=>`<button class="${j==i?"on":""}" onclick="S.ch=${j};materi()">${S.read.includes(j)?"✓ ":""}${j+1}</button>`).join("")||"Tidak ditemukan"}</div>
+<div class=bar><i id=rp style="width:${S.pr[i]||0}%"></i></div><small>Progress membaca</small>
+<div class=card><h2>${m[0]}</h2>${m[1]}<div class=kw><b>Kata kunci:</b> ${m[2]}</div><div class=kw><b>Kesimpulan:</b> ${m[3]}</div>
+<button class=pri id=mk>${S.read.includes(i)?"✓ Sudah dipelajari (batalkan)":"Tandai sudah dipelajari"}</button></div>
+<div class=row><button ${i?"":"disabled"} onclick="S.ch=${i-1};materi()">← Sebelumnya</button><button ${i<M.length-1?"":"disabled"} onclick="S.ch=${i+1};materi()">Berikutnya →</button></div><style>table{border-collapse:collapse;width:100%}td,th{border:1px solid var(--c3);padding:6px;font-size:.9rem}</style>`;
+const s=$("#sq");s.oninput=()=>{materi(s.value);const e=$("#sq");e.focus();e.setSelectionRange(99,99)};
+$("#mk").onclick=()=>{S.read=S.read.includes(i)?S.read.filter(x=>x!=i):[...S.read,i];sv();materi(q)};sv()}
+addEventListener("scroll",()=>{if(page!="materi")return;const p=Math.min(100,Math.round(scrollY/Math.max(1,document.body.scrollHeight-innerHeight)*100));if(p>(S.pr[S.ch]||0)){S.pr[S.ch]=p;const r=$("#rp");if(r)r.style.width=p+"%";sv()}});
+let tf=-1;
+function tl(){A.innerHTML=`<h2>Timeline Konstitusi Indonesia</h2><div class=row><button class="${tf<0?"on":""}" onclick="tf=-1;tl()">Semua</button>${PER.map((p,i)=>`<button class="${tf==i?"on":""}" onclick="tf=${i};tl()">${p}</button>`).join("")}</div><div class=tl>${T.map((e,i)=>[e,i]).filter(([e])=>tf<0||e[4]==tf).map(([e,i])=>`<div class=card onclick="this.querySelector('.d').hidden=!this.querySelector('.d').hidden"><small>${e[0]}</small><h3 style="margin:2px 0">${e[1]}</h3><span>Klik untuk detail</span><div class=d hidden><p><b>Latar belakang:</b> ${e[2]}</p><p><b>Dampak:</b> ${e[3]}</p></div></div>`).join("")}</div>`}
+function quiz(){A.innerHTML=`<h2>Latihan Soal</h2><div class=grid><div class=card><h3>Pilihan Ganda</h3>40 soal<p><button class=pri onclick="go('mc')">Mulai</button></p></div><div class=card><h3>Flashcard</h3>30 kartu<p><button class=pri onclick="go('fcv')">Mulai</button></p></div><div class=card><h3>Tebak Hubungan</h3>5 sesi, 25 pasangan<p><button class=pri onclick="go('mt')">Mulai</button></p></div></div>`}
+let qi=S.qi||0,an=S.qa||[],done=false,cf=false;
+function mc(){if(!done&&!an.length)an=Array(Q.length).fill(-1);
+if(done)return res();const q=Q[qi],c=an.filter(x=>x>=0).length;
+A.innerHTML=`<div class=bar><i style="width:${c/40*100}%"></i></div><small>Soal ${qi+1}/40 · terjawab ${c}</small><div class=card><h3>${q[0]}</h3>${[1,2,3,4].map(k=>`<button class="opt ${an[qi]==k-1?"sel":""}" data-k=${k-1}>${"ABCD"[k-1]}. ${q[k]}</button>`).join("")}</div>
+<div class=row><button ${qi?"":"disabled"} id=pv>← Sebelumnya</button><button ${qi<39?"":"disabled"} id=nx>Berikutnya →</button><button class=pri id=fn>Selesaikan Ujian</button></div>`;
+document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{an[qi]=+b.dataset.k;S.qa=an;S.qi=qi;sv();mc()});$("#pv").onclick=()=>{qi--;S.qi=qi;sv();mc()};$("#nx").onclick=()=>{qi++;S.qi=qi;sv();mc()};
+$("#fn").onclick=()=>{const u=an.filter(x=>x<0).length;if(u&&!cf){cf=true;$("#fn").textContent=u+" soal kosong. Klik lagi untuk mengumpulkan";return}cf=false;done=true;const b=an.filter((x,i)=>x==+Q[i][5]).length;S.last=Math.round(b/40*100);S.hist.push({d:new Date().toLocaleDateString("id-ID"),s:S.last,b});S.qa=[];S.qi=0;sv();mc()}}
+function res(){const b=an.filter((x,i)=>x==+Q[i][5]).length;
+A.innerHTML=`<div class=card><div class=big>Nilai: ${Math.round(b/40*100)}</div>Benar ${b} · Salah ${40-b}</div><div class=row><button class=pri onclick="qi=0;an=[];done=false;mc()">Ulangi</button></div>${Q.map((q,i)=>`<div class=card><b>${i+1}. ${q[0]}</b><p class="${an[i]==+q[5]?"ok":"no"}" style="padding:6px;border-radius:6px">Jawabanmu: ${an[i]<0?"kosong":"ABCD"[an[i]]+". "+q[an[i]+1]}</p><p>Benar: <b>${"ABCD"[q[5]]}. ${q[+q[5]+1]}</b><br><small>${q[6]}</small></p></div>`).join("")}<div class=card><b>Riwayat:</b> ${S.hist.slice(-8).map(h=>h.d+": "+h.s).join(" · ")}</div>`}
+let fo=sh(F.map((_,i)=>i)),fi=0,fl=false;
+function fcv(){const f=F[fo[fi]],k=S.fc.includes(fo[fi]);
+A.innerHTML=`<small>Kartu ${fi+1}/30 · dipelajari ${S.fc.length}/30</small><div class="card fc" id=cd>${fl?f[1]:"<b>"+f[0]+"</b>"}</div><small>Klik kartu untuk membalik</small>
+<div class=row><button id=a1 ${fi?"":"disabled"}>← Sebelumnya</button><button id=a2 ${fi<29?"":"disabled"}>Berikutnya →</button><button id=a3>🔀 Acak</button><button class=pri id=a4>${k?"✓ Sudah paham":"Tandai paham"}</button></div>`;
+$("#cd").onclick=()=>{fl=!fl;fcv()};$("#a1").onclick=()=>{fi--;fl=false;fcv()};$("#a2").onclick=()=>{fi++;fl=false;fcv()};$("#a3").onclick=()=>{fo=sh(fo);fi=0;fl=false;fcv()};
+$("#a4").onclick=()=>{const n=fo[fi];S.fc=k?S.fc.filter(x=>x!=n):[...S.fc,n];sv();fcv()}}
+let ms=0,sel=null,pr={},ans=[],chk=false;
+function mt(n){if(n!==undefined){ms=n;pr={};sel=null;chk=false;ans=sh([0,1,2,3,4])}if(!ans.length)ans=sh([0,1,2,3,4]);const D=MT[ms];
+A.innerHTML=`<div class=row>${[0,1,2,3,4].map(i=>`<button class="${i==ms?"on":""}" onclick="mt(${i})">Sesi ${i+1}${S.mt.includes(i)?" ✓":""}</button>`).join("")}</div><small>Klik pertanyaan, lalu klik jawaban. Tingkat kesulitan naik tiap sesi.</small>
+<div class=two><div>${D.map((d,i)=>`<button class="opt ${sel===i?"sel":""} ${chk?(pr[i]==i?"ok":"no"):""}" data-q=${i}>${i+1}. ${d[0]}${pr[i]!==undefined?"<br><small>→ "+D[pr[i]][1]+"</small>":""}</button>`).join("")}</div><div>${ans.map(j=>`<button class="opt ${Object.values(pr).includes(j)?"sel":""}" data-a=${j}>${D[j][1]}</button>`).join("")}</div></div>
+<div class=row><button class=pri id=ck ${Object.keys(pr).length<5?"disabled":""}>Periksa Jawaban</button></div>${chk?D.map((d,i)=>`<div class=card>${pr[i]==i?"✅":"❌"} <b>${d[0]}</b> = ${d[1]}<br><small>${d[2]}</small></div>`).join(""):""}`;
+document.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{if(!chk){sel=+b.dataset.q;delete pr[sel];mt()}});
+document.querySelectorAll("[data-a]").forEach(b=>b.onclick=()=>{if(chk||sel===null)return;const a=+b.dataset.a;for(const k in pr)if(pr[k]==a)delete pr[k];pr[sel]=a;sel=null;mt()});
+$("#ck").onclick=()=>{chk=true;const c=Object.keys(pr).filter(k=>pr[k]==k).length;S.mtS[ms]=Math.max(S.mtS[ms]||0,c);if(c==5&&!S.mt.includes(ms))S.mt.push(ms);sv();mt()}}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>"&#"+c.charCodeAt(0)+";");
+let rz=false;
+function rapor(){
+const hs=S.hist.map(h=>h.s),best=hs.length?Math.max(...hs):0,avg=hs.length?Math.round(hs.reduce((a,b)=>a+b,0)/hs.length):0;
+const fp=Math.round(S.fc.length/30*100),mb=Object.values(S.mtS).reduce((a,b)=>a+b,0),mp=Math.round(mb/25*100),rp=Math.round(S.read.length/M.length*100);
+const na=Math.round(best*.5+fp*.15+mp*.2+rp*.15),pd=na>=85?["A","Sangat Baik"]:na>=70?["B","Baik"]:na>=55?["C","Cukup"]:["D","Perlu belajar lagi"];
+A.innerHTML=`<div class=hero><h1>Rapor Nilai</h1><p>Nilai dihitung otomatis dari semua aktivitas belajarmu.</p></div>
+<div class=card><label>Nama siswa</label><input id=nm maxlength=40 placeholder="Tulis namamu" value="${esc(S.name)}"></div>
+<div class=card style="text-align:center"><div class=ring style="background:conic-gradient(var(--c2) ${na*3.6}deg,var(--cr) 0)"><span class=in>${na}</span></div><span class=badge>Predikat ${pd[0]} · ${pd[1]}</span><p><small>${esc(S.name||"Siswa")} · ${new Date().toLocaleDateString("id-ID")}</small></p></div>
+<div class=card><table class=tb><tr><th>Komponen</th><th>Nilai</th><th>Bobot</th></tr><tr><td>Pilihan Ganda (terbaik)</td><td>${best}</td><td>50%</td></tr><tr><td>Flashcard (${S.fc.length}/30)</td><td>${fp}</td><td>15%</td></tr><tr><td>Tebak Hubungan (${mb}/25 benar)</td><td>${mp}</td><td>20%</td></tr><tr><td>Materi (${S.read.length}/${M.length})</td><td>${rp}</td><td>15%</td></tr><tr><th>Nilai akhir</th><th>${na}</th><th></th></tr></table>
+<p><small>PG terakhir: ${S.last===null?"-":S.last} · rata-rata: ${avg} · percobaan: ${S.hist.length}</small></p></div>
+<div class=card><b>Riwayat Pilihan Ganda</b><table class=tb>${S.hist.slice(-10).reverse().map(h=>`<tr><td>${esc(h.d)}</td><td>Nilai ${h.s}</td><td>${h.b===undefined?"":h.b+" benar"}</td></tr>`).join("")||"<tr><td>Belum ada latihan.</td></tr>"}</table></div>
+<div class=card><b>Simpan dan pindahkan progres</b><p><small>Buat kode, simpan di catatan, lalu tempel di perangkat lain untuk memulihkan.</small></p><textarea id=kd placeholder="Kode progres..."></textarea><div class=row><button id=ex>Buat Kode Progres</button><button id=im>Pulihkan dari Kode</button><button id=pt>Cetak Rapor</button><button id=rs>Reset Progres</button></div><small id=ms></small></div>`;
+const ms=t=>{$("#ms").textContent=t};
+$("#nm").oninput=e=>{S.name=e.target.value.slice(0,40);sv()};
+$("#pt").onclick=()=>{try{print()}catch(e){ms("Cetak tidak tersedia di sini.")}};
+$("#ex").onclick=()=>{const t=$("#kd");t.value=btoa(unescape(encodeURIComponent(JSON.stringify(S))));t.select();ms("Kode dibuat. Salin teks di atas.")};
+$("#im").onclick=()=>{try{const o=JSON.parse(decodeURIComponent(escape(atob($("#kd").value.trim()))));if(!Array.isArray(o.read)||!Array.isArray(o.hist))throw 0;Object.assign(S,o);sv();theme();rapor()}catch(e){ms("Kode tidak valid.")}};
+$("#rs").onclick=()=>{if(!rz){rz=true;$("#rs").textContent="Yakin? Klik lagi untuk menghapus";return}rz=false;try{localStorage.removeItem("ppsm")}catch(e){}S={read:[],pr:{},hist:[],fc:[],mt:[],dark:S.dark,last:null,ch:0,name:"",qa:[],qi:0,mtS:{}};an=[];qi=0;sv();rapor()}}
+go("home");
+</script></body></html>
